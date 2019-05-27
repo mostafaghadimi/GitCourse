@@ -1,11 +1,15 @@
 # **Git Course Syllabus**
 
-- ورژن کنترل چیست؟
-- چرا باید از ورژن کنترل استفاده کنیم؟
-- گیت چیست؟
-- کاربرد گیت در صنعت و کار (نشان دادن آگهی‌هایی که توش تسلط به گیت نیازه!)
-- نصب گیت
-- ساختن اکانت گیت‌هاب
+- What is Version Control (Final, Final Final Final :)), Final ... Final Project, Copy Paste! Project into different systems)
+- Why should we use VC?
+- What is GIT?
+- Git usage in Programming Interviews and prerequisites (Show Ads on different sites)
+- Installing git for different Platforms (www.git-scm.com)
+- Create account on Github.com
+- 
+
+- working tree
+- staging area (Commited, Staged, Modified) {git Locations}
  روال این‌طوری باشه که کلی چیز تئوری بگیم بعد بریم تو عمل انجام‌شون بدیم.
  - git stages (Commited, Staged, Modified)
  - git init
