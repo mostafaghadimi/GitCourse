@@ -1,27 +1,60 @@
 # **Git Course Syllabus**
 
-- ورژن کنترل چیست؟
-- چرا باید از ورژن کنترل استفاده کنیم؟
-- گیت چیست؟
-- کاربرد گیت در صنعت و کار (نشان دادن آگهی‌هایی که توش تسلط به گیت نیازه!)
-- نصب گیت
-- ساختن اکانت گیت‌هاب
- روال این‌طوری باشه که کلی چیز تئوری بگیم بعد بریم تو عمل انجام‌شون بدیم.
+- What is Version Control (Final, Final Final Final :)), Final ... Final Project, Copy Paste! Project into different systems)
+- Why should we use VC?
+- What is GIT?
+> Version Control System (VCS) for tracking changes in computer files. 
+1. distributed version control (Photo + Description)
+2. Coordinates work between multiple developers
+3. Who made what changes and when
+4. Revert back at any time
+5. Local & remote repositories
+
+- Git Concepts
+1. keeps track of code history
+takes snapshots of your files
+you decide when to take a snapshot by making a commit
+You can visit any snapshot any time
+You can stage files before commiting
+
+- Git usage in Programming Interviews and prerequisites (Show Ads on different sites)
+- Installing git for different Platforms (www.git-scm.com) -> git --version
+- Create account on Github.com
+- 
+
+- working tree
+- staging area (Commited, untracked, Staged, Modified) {git Locations}
+ 
+ > set config values
+ git config --global user.name "Your name"
+ git config --global user.email "Your email"
+ git config --list
+
+
+git help <verb>
+git <verb> --help
+
  - git stages (Commited, Staged, Modified)
+ Basic Commands
  - git init
+ - git add
+ - git status
+ - git commit
+ - git push
+ - git pull
+ - git clone
+ - git log
+ - .gitignore
+ - git branches
+ - talk about github
+ - git tag
+ - git conflict
+ - debug
 
 
-جادی:
+advanced
+git reset
+git revert
 
- درس یکم: مقدمات گیت و نصب آن
-درس دوم: اولین اینیت (init) و اولین کامیت
-درس سوم: بررسی تاریخچه کارها
-درس چهارم: بررسی تغییرات انجام شده
-درس پنجم: آشنایی با شاخه ها یا همان برنچ ها (Branch)
-درس ششم: کمی بیشتر در مورد برنچ ها
-درس هفتم: آشنایی و استفاده از گیت هاب (GitHub)
-درس هشتم: بررسی و حل کانفلیکت های (Conflict) ریموت
-درس نهم: تگ زدن برای شناسایی نسخه ها
-درس دهم: امضا کردن تگ ها و کامیت ها
-درس یازدهم: دیباگ کردن با کمک گیت
-درس دوازدهم: آشنایی با گیت لب و مشارکت در پروژه ها
+
+ GIT best tools: :?
