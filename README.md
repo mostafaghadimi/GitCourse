@@ -58,3 +58,17 @@ git revert
 
 
  GIT best tools: :?
+ 
+ 
+ change the origin:
+git remote rm origin
+git remote add origin git@github.com:username/repositoryName.git
+git config master.remote origin
+git config master.merge refs/heads/master
+
+
+
+ssh key
+cd ~/.ssh
+ssh-keygen -o
+cat ~/.ssh/id_rsa.pub
